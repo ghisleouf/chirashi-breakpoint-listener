@@ -1,0 +1,27 @@
+{
+  "name": "chirashi-breakpoint-listener",
+  "version": "1.0.0",
+  "description": "Breakpoint listener plugin for Chirashi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexToudic/chirashi-breakpoint-listener.git"
+  },
+  "keywords": [
+    "chirashi",
+    "breakpoint",
+    "breakpoints"
+  ],
+  "author": "AlexToudic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexToudic/chirashi-breakpoint-listener/issues"
+  },
+  "homepage": "https://github.com/AlexToudic/chirashi-breakpoint-listener#readme",
+  "dependencies": {
+    "chirashi": "^3.0.0"
+  }
+}
