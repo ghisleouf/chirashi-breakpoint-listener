@@ -1,6 +1,6 @@
 {
   "name": "chirashi-breakpoint-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Breakpoint listener plugin for Chirashi",
   "main": "index.js",
   "scripts": {

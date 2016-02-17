@@ -44,12 +44,11 @@ export class BreakpointListener {
 
     resize(size) {
         let width = size.width,
-            len = this._breakpoints.length,
-            i = 0
+            i = this._breakpoints.length
 
-        while(i+1 < len && this._breakpoints[i+1].size > width) ++i
+        while(i-- && width > this._breakpoints[i].size){}
 
-        this.current = this._breakpoints[Math.max(i, 0)].label
+        this.current = this._breakpoints[Math.min(this._breakpoints.length-1, i+1)].label
     }
 
     on(callback) {
